@@ -1,4 +1,6 @@
-﻿namespace session04
+﻿using System.Text;
+
+namespace session04
 {
     internal class Program
     {
@@ -16,6 +18,14 @@
             string first = "Clean Code";
             string second = "Clean Code";
             Console.WriteLine(ReferenceEquals(first,second));
+            #endregion
+
+            #region 3rd q
+            StringBuilder stringBuilder= new StringBuilder();
+            stringBuilder.Append("Book List");
+            stringBuilder.Append("-Updated");
+            Console.WriteLine(stringBuilder);
+            
             #endregion
         }
     }

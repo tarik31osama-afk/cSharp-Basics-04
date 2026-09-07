@@ -12,6 +12,11 @@
 
             #endregion
 
+            #region  2nd q
+            string first = "Clean Code";
+            string second = "Clean Code";
+            Console.WriteLine(ReferenceEquals(first,second));
+            #endregion
         }
     }
 }

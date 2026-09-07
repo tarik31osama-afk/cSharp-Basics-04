@@ -126,6 +126,13 @@ namespace session04
             while (j< 3);
 
             #endregion
+            #region 14th q
+
+            foreach (string i in books)
+            {
+                Console.WriteLine(i);
+            }
+            #endregion
         }
     }
 }

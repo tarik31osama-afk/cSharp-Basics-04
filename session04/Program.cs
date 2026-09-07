@@ -126,11 +126,25 @@ namespace session04
             while (j< 3);
 
             #endregion
+
             #region 14th q
 
             foreach (string i in books)
             {
                 Console.WriteLine(i);
+            }
+            #endregion
+
+            #region 15th q
+
+            for (int i = 0; i < books.Length; i++)
+            {
+
+                if (books[i] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(books[i]);
             }
             #endregion
         }

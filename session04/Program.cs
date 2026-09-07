@@ -48,6 +48,18 @@ namespace session04
 
             #endregion
 
+            #region 7th q
+            int Pages = 464;
+            if(Pages>300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("short book");
+            }
+
+            #endregion
 
         }
     }

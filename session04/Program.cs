@@ -87,6 +87,12 @@ namespace session04
                     break;
             }
             #endregion
+
+            #region 10th q
+            string sizeLabel = pages > 300 ? "long book" : "short book ";
+            Console.WriteLine(sizeLabel);
+
+            #endregion
         }
     }
 }

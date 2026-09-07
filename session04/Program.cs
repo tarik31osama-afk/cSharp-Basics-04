@@ -17,22 +17,31 @@ namespace session04
             #region  2nd q
             string first = "Clean Code";
             string second = "Clean Code";
-            Console.WriteLine(ReferenceEquals(first,second));
+            Console.WriteLine(ReferenceEquals(first, second));
             #endregion
 
             #region 3rd q
-            StringBuilder stringBuilder= new StringBuilder();
+            StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append("Book List");
             stringBuilder.Append("-Updated");
             Console.WriteLine(stringBuilder);
 
             #endregion
 
-
             #region 4th q
-            stringBuilder.Replace("Book List","library");
+            stringBuilder.Replace("Book List", "library");
             Console.WriteLine(stringBuilder);
+
             #endregion
+
+            #region 5th q
+            string title2 = "Clean Code";
+            int pages = 464;
+            string sentence = "Book: " + title2 + "," + "pages: " + pages;
+            Console.WriteLine(sentence);
+
+            #endregion
+           
 
         }
     }

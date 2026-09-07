@@ -146,7 +146,23 @@ namespace session04
                 }
                 Console.WriteLine(books[i]);
             }
+            #endregion\
+
+            #region 16th q
+
+            for (int i = 0; i < books.Length; i++)
+            {
+
+                if (books[i] == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(books[i]);
+            }
+
             #endregion
+
+          
         }
     }
 }

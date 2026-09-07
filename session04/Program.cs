@@ -113,6 +113,17 @@ namespace session04
                 x++;
             }
 
+            #endregion
+
+            #region 13th q
+
+            int j = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                j++;
+            }
+            while (j< 3);
 
             #endregion
         }

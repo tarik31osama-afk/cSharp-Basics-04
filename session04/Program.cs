@@ -61,6 +61,15 @@ namespace session04
 
             #endregion
 
+            #region 8th q
+            bool isAvailable=true;
+            if (pages > 300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+
+            #endregion
+
         }
     }
 }

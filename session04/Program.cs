@@ -103,6 +103,18 @@ namespace session04
                
             }
             #endregion
+
+            #region 12th q
+
+            int x = 0;
+            while (x < books.Length)
+            {
+                Console.WriteLine(books[x]);
+                x++;
+            }
+
+
+            #endregion
         }
     }
 }

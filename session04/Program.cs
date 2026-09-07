@@ -70,6 +70,23 @@ namespace session04
 
             #endregion
 
+            #region 9th q
+
+            string Title = "Refactoring";
+            switch (Title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
         }
     }
 }

@@ -41,7 +41,13 @@ namespace session04
             Console.WriteLine(sentence);
 
             #endregion
-           
+
+            #region 6th q
+            string Sentence = $"Book: {title2} ,pages: {pages}";
+            Console.WriteLine(Sentence);
+
+            #endregion
+
 
         }
     }

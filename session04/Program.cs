@@ -25,8 +25,15 @@ namespace session04
             stringBuilder.Append("Book List");
             stringBuilder.Append("-Updated");
             Console.WriteLine(stringBuilder);
-            
+
             #endregion
+
+
+            #region 4th q
+            stringBuilder.Replace("Book List","library");
+            Console.WriteLine(stringBuilder);
+            #endregion
+
         }
     }
 }
